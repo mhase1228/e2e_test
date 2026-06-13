@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - heading "Hotel Planisphere" [level=1] [ref=e2]
+  - navigation [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "ホーム" [ref=e7] [cursor=pointer]:
+          - /url: ./index.html
+      - listitem [ref=e8]:
+        - link "宿泊予約" [ref=e9] [cursor=pointer]:
+          - /url: ./plans.html
+      - listitem [ref=e10]:
+        - link "会員登録" [ref=e11] [cursor=pointer]:
+          - /url: ./signup.html
+      - listitem [ref=e12]:
+        - button "ログイン" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - heading "ログイン" [level=2] [ref=e17]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: メールアドレス
+        - textbox "メールアドレス" [ref=e23]
+      - generic [ref=e24]:
+        - generic [ref=e25]: パスワード
+        - textbox "パスワード" [ref=e26]
+      - button "ログイン" [ref=e27] [cursor=pointer]
+  - contentinfo [ref=e28]:
+    - generic [ref=e29]:
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "GitHub" [ref=e32] [cursor=pointer]:
+            - /url: https://github.com/takeyaqa/hotel-example-site
+      - paragraph [ref=e33]: © 2020-2026 Takeshi Kishi

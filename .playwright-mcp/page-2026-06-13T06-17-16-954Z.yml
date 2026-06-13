@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - heading "Hotel Planisphere" [level=1] [ref=e2]
+  - navigation [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "ホーム" [ref=e7] [cursor=pointer]:
+          - /url: ./index.html
+      - listitem [ref=e8]:
+        - link "宿泊予約" [ref=e9] [cursor=pointer]:
+          - /url: ./plans.html
+      - listitem [ref=e10]:
+        - link "マイページ" [ref=e11] [cursor=pointer]:
+          - /url: ./mypage.html
+      - listitem [ref=e12]:
+        - button "ログアウト" [ref=e14] [cursor=pointer]
+  - generic [ref=e15]:
+    - heading "マイページ" [level=2] [ref=e18]: マイページ
+    - generic [ref=e19]:
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - generic [ref=e23]:
+            - heading "メールアドレス" [level=5] [ref=e24]
+            - paragraph [ref=e25]: ichiro@example.com
+        - listitem [ref=e26]:
+          - generic [ref=e27]:
+            - heading "氏名" [level=5] [ref=e28]
+            - paragraph [ref=e29]: 山田一郎
+        - listitem [ref=e30]:
+          - generic [ref=e31]:
+            - heading "会員ランク" [level=5] [ref=e32]
+            - paragraph [ref=e33]: プレミアム会員
+        - listitem [ref=e34]:
+          - generic [ref=e35]:
+            - heading "住所" [level=5] [ref=e36]
+            - paragraph [ref=e37]: 東京都豊島区池袋
+        - listitem [ref=e38]:
+          - generic [ref=e39]:
+            - heading "電話番号" [level=5] [ref=e40]
+            - paragraph [ref=e41]: "01234567891"
+        - listitem [ref=e42]:
+          - generic [ref=e43]:
+            - heading "性別" [level=5] [ref=e44]
+            - paragraph [ref=e45]: 男性
+        - listitem [ref=e46]:
+          - generic [ref=e47]:
+            - heading "生年月日" [level=5] [ref=e48]
+            - paragraph [ref=e49]: 未登録
+        - listitem [ref=e50]:
+          - generic [ref=e51]:
+            - heading "お知らせ" [level=5] [ref=e52]
+            - paragraph [ref=e53]: 受け取る
+      - generic [ref=e54]:
+        - button "アイコン設定" [disabled]
+        - button "退会する" [disabled] [ref=e56]
+  - contentinfo [ref=e57]:
+    - generic [ref=e58]:
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "GitHub" [ref=e61] [cursor=pointer]:
+            - /url: https://github.com/takeyaqa/hotel-example-site
+      - paragraph [ref=e62]: © 2020-2026 Takeshi Kishi

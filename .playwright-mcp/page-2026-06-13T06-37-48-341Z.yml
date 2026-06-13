@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - heading "Hotel Planisphere" [level=1] [ref=e2]
+  - navigation [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "ホーム" [ref=e7] [cursor=pointer]:
+          - /url: ./index.html
+      - listitem [ref=e8]:
+        - link "宿泊予約" [ref=e9] [cursor=pointer]:
+          - /url: ./plans.html
+      - listitem [ref=e10]:
+        - link "会員登録" [ref=e11] [cursor=pointer]:
+          - /url: ./signup.html
+      - listitem [ref=e12]:
+        - button "ログイン" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - heading "会員登録" [level=2] [ref=e17]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - text: メールアドレス
+          - generic [ref=e23]: 必須
+        - textbox "メールアドレス 必須" [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - text: パスワード
+          - generic [ref=e27]: 必須
+        - textbox "パスワード 必須" [ref=e28]
+        - generic [ref=e29]: 8文字以上で入力してください。
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - text: パスワード（確認）
+          - generic [ref=e32]: 必須
+        - textbox "パスワード（確認） 必須" [ref=e33]
+        - generic [ref=e34]: 確認のため再度パスワードを入力してください。
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - text: 氏名
+          - generic [ref=e37]: 必須
+        - textbox "氏名 必須" [ref=e38]
+      - group [ref=e39]:
+        - generic [ref=e40]:
+          - radio "プレミアム会員" [checked] [ref=e41]
+          - generic [ref=e42]: プレミアム会員
+        - generic [ref=e43]:
+          - radio "一般会員" [ref=e44]
+          - generic [ref=e45]: 一般会員
+      - generic [ref=e46]:
+        - generic [ref=e47]: 住所
+        - textbox "住所" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]: 電話番号
+        - textbox "電話番号" [ref=e51]
+        - generic [ref=e52]: 11桁の数字で入力してください。例：01133335555
+      - generic [ref=e53]:
+        - generic [ref=e54]: 性別
+        - combobox "性別" [ref=e55]:
+          - option "回答しない" [selected]
+          - option "男性"
+          - option "女性"
+          - option "その他"
+      - generic [ref=e56]:
+        - generic [ref=e57]: 生年月日
+        - textbox "生年月日" [ref=e58]
+      - generic [ref=e60]:
+        - checkbox "お知らせを受け取る" [ref=e61]
+        - generic [ref=e62]: お知らせを受け取る
+      - button "登録" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "GitHub" [ref=e68] [cursor=pointer]:
+            - /url: https://github.com/takeyaqa/hotel-example-site
+      - paragraph [ref=e69]: © 2020-2026 Takeshi Kishi

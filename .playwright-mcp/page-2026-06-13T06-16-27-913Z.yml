@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - heading "Hotel Planisphere" [level=1] [ref=e2]
+  - navigation [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "ホーム" [ref=e7] [cursor=pointer]:
+          - /url: ./index.html
+      - listitem [ref=e8]:
+        - link "宿泊予約" [ref=e9] [cursor=pointer]:
+          - /url: ./plans.html
+      - listitem [ref=e10]:
+        - link "会員登録" [ref=e11] [cursor=pointer]:
+          - /url: ./signup.html
+      - listitem [ref=e12]:
+        - button "ログイン" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - heading "宿泊プラン一覧" [level=2] [ref=e17]
+    - generic [ref=e20]:
+      - generic [ref=e21]: ⭐おすすめプラン⭐
+      - generic [ref=e22]:
+        - heading "お得な特典付きプラン" [level=5] [ref=e23]
+        - list [ref=e24]:
+          - listitem [ref=e25]: 大人1名7,000円
+          - listitem [ref=e26]: 1名様から
+          - listitem [ref=e27]: スタンダードツイン
+        - link "このプランで予約" [ref=e28] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=0
+      - generic [ref=e29]: 本日限り
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - heading "素泊まり" [level=5] [ref=e34]
+        - list [ref=e35]:
+          - listitem [ref=e36]: 大人1名5,500円
+          - listitem [ref=e37]: 1名様から
+          - listitem [ref=e38]: シングル
+        - link "このプランで予約" [ref=e39] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=4
+      - generic [ref=e42]:
+        - heading "出張ビジネスプラン" [level=5] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 大人1名7,500円
+          - listitem [ref=e46]: 1名様から
+          - listitem [ref=e47]: シングル
+        - link "このプランで予約" [ref=e48] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=5
+      - generic [ref=e51]:
+        - heading "エステ・マッサージプラン" [level=5] [ref=e52]
+        - list [ref=e53]:
+          - listitem [ref=e54]: 大人1名9,000円
+          - listitem [ref=e55]: 1名様から
+          - listitem [ref=e56]: 部屋指定なし
+        - link "このプランで予約" [ref=e57] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=6
+      - generic [ref=e60]:
+        - heading "貸し切り露天風呂プラン" [level=5] [ref=e61]
+        - list [ref=e62]:
+          - listitem [ref=e63]: 大人1名9,000円
+          - listitem [ref=e64]: 1名様から
+          - listitem [ref=e65]: 部屋指定なし
+        - link "このプランで予約" [ref=e66] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=7
+      - generic [ref=e69]:
+        - heading "カップル限定プラン" [level=5] [ref=e70]
+        - list [ref=e71]:
+          - listitem [ref=e72]: 大人1名8,000円
+          - listitem [ref=e73]: 2名様から
+          - listitem [ref=e74]: プレミアムツイン
+        - link "このプランで予約" [ref=e75] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=8
+      - generic [ref=e78]:
+        - heading "テーマパーク優待プラン" [level=5] [ref=e79]
+        - list [ref=e80]:
+          - listitem [ref=e81]: 大人1名10,000円
+          - listitem [ref=e82]: 1名様から
+          - listitem [ref=e83]: 部屋指定なし
+        - link "このプランで予約" [ref=e84] [cursor=pointer]:
+          - /url: ./reserve.html?plan-id=9
+  - contentinfo [ref=e85]:
+    - generic [ref=e86]:
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - link "GitHub" [ref=e89] [cursor=pointer]:
+            - /url: https://github.com/takeyaqa/hotel-example-site
+      - paragraph [ref=e90]: © 2020-2026 Takeshi Kishi
